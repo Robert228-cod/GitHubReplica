@@ -1,0 +1,316 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #0d1117;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  width: 100%;
+}
+
+.encabezado {
+  width: 100%;
+  background-color: #010409;
+  justify-items: auto;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.contenidoDelHeader {
+  max-width: 1200px;
+  margin: 0;
+  padding: 0 20px; 
+  color: white;
+}
+.navbarContent {
+  display: flex;
+  gap: 20px;
+  font-size: small;
+}
+.navbarText {
+  color: white;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+.pagina {
+  display: grid;
+  min-height: 100dvh;
+  grid-template-rows: auto 1fr auto;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+h5 {
+  justify-self: left;
+}
+span {
+  justify-content: left;
+}
+
+.nameAvatar {
+  display: flex;
+  align-items: center;
+  width: 20%;
+  gap: 5px;
+  padding-top: 10px;
+}
+.userName{
+  align-content: center;
+  font-size: 60%;
+}
+.navbar {
+  display: flex;
+}
+.fotoPerfil {
+  justify-items: left;
+}
+.buttonPerfil{
+  display: block;
+  width: 100%;
+  text-align: center;
+  background-color: #212830;
+  font-size: 14px;
+  height: 35px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+}
+.nameBody {
+  font-style: normal;
+  font-weight: var(--base-text-weight-light, 300);
+  line-height: 24px;
+}
+.gridContent{
+  justify-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: auto;
+}
+.perfilYRepos {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 70px;
+}
+.repositorios {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 10px;
+}
+.gridRepo{
+  display: flex;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  font-size: small;
+  justify-items: center;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  justify-content: space-between;
+  width: 300px;
+}
+.visivility{
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+}
+
+/*Componentes del la pestaña 2*/
+.cuerpo2InputAndButtons {
+  display: flex;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 10px;
+  justify-content: space-between;
+  height: 45px;
+}
+.cuepo2Input {
+  width: 410px;
+  height: 26px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: transparent;
+}
+.cuerpo2Buttons {
+  display: flex;
+  gap: 10px;
+}
+.cuerpo2ButtonsStarCombo {
+  display: flex;
+}
+.cuerpo2But {
+  align-items: center;
+  height: 30px;
+  font-size: medium;
+  border-radius: 6px;
+  background-color: #212830;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.cuerpo2ButNew {
+  align-items: center;
+  height: 30px;
+  font-size: medium;
+  border-radius: 6px;
+  background-color: #238636;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.Cuerpo2HGrid {
+  display: flex;
+  padding-top: 50px;
+  padding-left: 80px;
+  padding-right: 80px;
+  justify-content: space-between;
+}
+.cuerpo2ReposGrid {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  justify-items: left;
+  width: 870px;
+  height: 90px;
+  padding: 10px;
+}
+.cuerpo2GridFL {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.cuerpo2RepoLink {
+  font-size: larger;
+}
+.cuerpo2lenguageRow {
+  display: flex;
+  gap: 30px;
+  font-size: small;
+  padding-top: 15px;
+}
+.cuerpo2NameRepo {
+  display: flex;
+  gap: 20px;
+}
+.cuerpo2starButton {
+  height: 30px;
+  width: 80px;
+  border-radius: 6px 0px 0px 6px;
+  background-color: #212830;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.cuerpo2ComboBox {
+  height: 30px;
+  width: 34px;
+  border-radius: 0px 6px 6px 0px;
+  background-color: #212830;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.nameRepoC2 {
+  font-size: 150%;
+}
+
+/*Componentes de la pestaña 3*/
+.cuerpo3HighDiv {
+  display: flex;
+  padding: 30px;
+  align-items: start;
+  justify-content: space-between;
+  padding-left: 79px;
+  padding-top: 30px;
+  padding-right: 50px;
+}
+.cuerpoNewProjectDiv {
+  width: 930px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  height: 240px;
+  align-content: center;
+}
+.cuerpo3TitleText {
+  font-size: larger;
+}
+.cuerpo3NewProjectButton {
+  background-color: #238636;
+  border-color: rgba(0,0,0,0);
+  border: 0.0625rem 1px;
+  border-radius: 0.375rem;
+  height: 35px;
+}
+
+.visibilityLabel {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  margin-left: 10px;
+}
+.lenguageLabel {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 80%;
+}
+
+.footerGrid {
+  justify-items: center;
+}
+.pieDePagina {
+  font-style: normal;
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+.iconFooter {
+  width: 30px;
+  height: 30px;
+  padding: 15px;
+}
+.footerText {
+  color: white;
+}
+
+
+
+
+
+/*button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}*/
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
