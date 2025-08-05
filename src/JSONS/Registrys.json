@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Apache Maven",
+        "descirption": "A default package manager used for the Java programming language and the Java runtime environment."
+    },
+    {
+        "title": "NuGet",
+        "descirption": "A free and open source package manager used for the Microsoft development platforms including .NET."
+    },
+    {
+        "title": "RubyGems",
+        "descirption": "A standard format for distributing Ruby programs and libraries used for the Ruby programming language."
+    },
+    {
+        "title": "npm",
+        "descirption": "A package manager for JavaScript, included with Node.js. npm makes it easy for developers to share and reuse code."
+    },
+    {
+        "title": "Containers",
+        "descirption": "A single place for your team to manage Docker images and decide who can see and access your images."
+    }
+]

@@ -172,9 +172,9 @@ span {
 }
 .Cuerpo2HGrid {
   display: flex;
-  padding-top: 50px;
-  padding-left: 80px;
-  padding-right: 80px;
+  padding-left: 79px;
+  padding-top: 30px;
+  padding-right: 50px;
   justify-content: space-between;
 }
 .cuerpo2ReposGrid {
@@ -249,6 +249,76 @@ span {
   border-radius: 0.375rem;
   height: 35px;
 }
+
+/*Componentes de la pestaña 4*/
+.cuerpo4Content {
+  display: flex;
+  padding: 30px;
+  justify-content: space-between;
+  padding-left: 79px;
+  padding-top: 30px;
+  padding-right: 50px;
+  gap: 20px;
+} 
+.cuerpo4Started {
+  margin-bottom: 30px;
+}
+.cuerpo4StartedRegistry {
+  display: flex;
+  flex-direction: column;
+}
+.cuerpo4StartedTitle {
+  font-size: 2rem ;
+}
+.cuerpo4StartedP {
+  color: rgba(255, 255, 255, 0.5);
+}
+.cuerpo4RegistrysContent {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  padding: 10px;
+  gap: 15px;
+}
+.cuerpo4RegistryGrid {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  padding: 20px;
+}
+.cuerpo4RegistryGridTitle {
+  text-align: left;
+}
+.cuerpo5RegistryGridTextButton {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.cuerpo4RegistryGridText {
+  text-align: left;
+  font-size: small;
+}
+.cuerpo4RegistryGridButton {
+  justify-self: start;
+  border-radius: 8px;
+  background-color: #212830;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  width: 100px;
+  height: 30px;
+}
+
+/*Componentes del cuerpo 5*/
+.cuerpo5Content {
+  display: flex;
+  padding: 30px;
+  justify-content: space-between;
+  padding-left: 79px;
+  padding-top: 30px;
+  padding-right: 50px;
+  gap: 20px;
+}
+
+
 
 .visibilityLabel {
   border: 1px solid rgba(255, 255, 255, 0.3);
