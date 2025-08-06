@@ -27,7 +27,7 @@ header {
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 .contenidoDelHeader {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0;
   padding: 0 20px; 
   color: white;
@@ -35,10 +35,14 @@ header {
 .navbarContent {
   display: flex;
   gap: 20px;
-  font-size: small;
+  font-size: small; 
 }
 .navbarText {
   color: white;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 15px;
 }
 
 a {
@@ -64,6 +68,51 @@ h5 {
 }
 span {
   justify-content: left;
+}
+
+.headerFirstRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.inputAndButtonsheader {
+  display: flex;
+  gap: 10px;
+}
+.buttonSelectHeader{
+  display: flex;
+}
+.headerButtonsB {
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: #010409;
+  border-radius: 6px 0px 0px 6px;
+}
+.headerButtonsS {
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: #010409;
+  border-radius: 0px 6px 6px 0px;
+}
+
+.inputheader {
+  width: 300px;
+  height: 30px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: #010409;
+  border-radius: 6px;
+}
+.headerFrogIcon {
+  font-size: 20px;
+}
+.headerButtons {
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: #010409;
+  border-radius: 6px;
 }
 
 .nameAvatar {
@@ -205,6 +254,9 @@ span {
   gap: 20px;
 }
 .cuerpo2starButton {
+  display: flex;
+  align-items: center;
+  gap: 3px;
   height: 30px;
   width: 80px;
   border-radius: 6px 0px 0px 6px;
@@ -231,6 +283,9 @@ span {
   padding-left: 79px;
   padding-top: 30px;
   padding-right: 50px;
+}
+.cuerpo3CreateProjectIcon {
+  font-size: 30px;
 }
 .cuerpoNewProjectDiv {
   width: 930px;
@@ -316,6 +371,93 @@ span {
   padding-top: 30px;
   padding-right: 50px;
   gap: 20px;
+}
+.cuerpo5ListAndStarsContent {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px;
+}
+.cuerpo5ListSort {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.cuerpo5ListSortH2text {
+  font-size: 1.25rem 20px;
+  font-weight: 300;
+}
+.cuerpo5SortCreate {
+  display: flex;
+  gap: 10px;
+}
+.cuerpo5ListSortButton {
+  justify-self: start;
+  border-radius: 8px;
+  background-color: #238636;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  width: 100px;
+  height: 30px;
+}.cuepo5ListSortInput {
+  width: 80px;
+  height: 30px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: #212830;
+}
+.cuerpo5CreateListGrid {
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  height: 240px;
+  align-content: center;
+}
+.cuerpo5StarsSearch {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.cuerpo5InputSelects {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cuerpo5InputAndSearchButton {
+  display: flex;
+  gap: 10px;
+}
+.cuerpo5InputSearch {
+  width: 410px;
+  height: 26px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: transparent;
+}
+.cuerpo5SearchButton {
+  justify-self: start;
+  border-radius: 8px;
+  background-color: #212830;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  width: 70px;
+  height: 30px;
+}
+.cuerpo5SelectsButtonsContent {
+  display: flex;
+  gap: 10px;
+}
+.cuerpo5SelectsButton {
+  justify-self: start;
+  border-radius: 8px;
+  background-color: #212830;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  height: 30px;
+}
+.cuerpo5ReposWhitStars {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 

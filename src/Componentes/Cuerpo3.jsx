@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 import { UserContext } from '../Context/UserContext'
 import { FotoYnombreComp } from './FotoYnombreComp'
+import { VscGithubProject } from "react-icons/vsc";
 
 export const Cuerpo3 = () => {
   const {dataUser} = useContext(UserContext)
@@ -11,7 +12,7 @@ export const Cuerpo3 = () => {
         </div>
 
         <div className='cuerpoNewProjectDiv'>
-          <div>Icono</div>
+          <VscGithubProject className='cuerpo3CreateProjectIcon'/>
           <h2 className='cuerpo3TitleText'>Create your first GitHub project</h2>
           <p>Projects are a customizable, flexible tool for planning and tracking your work.</p>
           <div>

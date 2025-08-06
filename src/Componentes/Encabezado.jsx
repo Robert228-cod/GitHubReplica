@@ -1,8 +1,11 @@
 import React, { useContext } from 'react'
 import { UserContext } from '../Context/UserContext'
-import { Navigate, Route, Routes, Link } from 'react-router-dom'
 import { NavBar } from './NavBar'
-import { Cuerpo2 } from './Cuerpo2'
+import { CiMenuBurger } from "react-icons/ci";
+import { LiaFrogSolid } from "react-icons/lia";
+import { FaRegDotCircle } from "react-icons/fa";
+import { SiGithubactions } from "react-icons/si";
+import { BiCollection } from "react-icons/bi";
 
 export const Encabezado = () => {
 
@@ -10,10 +13,24 @@ export const Encabezado = () => {
 
   return (
     <div className='contenidoDelHeader'>
-        <div className='nameAvatar'>
-          <button className='buttonMenu'> = </button>
-          <img className='avatar' src={"/imagenes/github.png"} alt="foto" />
-          <span className='userName'><h2>{dataUser?.login}</h2></span>
+        <div className='headerFirstRow'>
+          <div className='nameAvatar'>
+            <button className='buttonMenu'> <CiMenuBurger /> </button>
+            <img className='avatar' src={"/imagenes/github.png"} alt="foto" />
+            <span className='userName'><h2>{dataUser?.login}</h2></span>
+          </div>
+          <div className='inputAndButtonsheader'>
+            <input className='inputheader' type="text" placeholder='Type / to search'/>
+            <div className='buttonSelectHeader'>
+              <button className='headerButtonsB'><LiaFrogSolid className='headerFrogIcon'/></button>
+              <select className='headerButtonsS'>O</select>
+            </div>
+            <select style={{fontSize: "20px", width: "45px"}} className='headerButtons'><option>+</option></select>
+            <button className='headerButtons'><FaRegDotCircle /></button>
+            <button className='headerButtons'><SiGithubactions /></button>
+            <button className='headerButtons'><BiCollection /></button>
+            <img className='avatar' src={dataUser?.avatar_url} alt="image" />
+          </div>
         </div>
         
         <div className='barraNavegacion'> <NavBar/> </div>

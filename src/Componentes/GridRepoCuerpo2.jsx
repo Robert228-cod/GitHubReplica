@@ -1,3 +1,5 @@
+import { IoIosStarOutline } from "react-icons/io";
+
 export const GridRepoCuerpo2 = ({index, nameRepo, lenguage, visibility, html_url,lastUpdate}) => {
   return (
     <div>
@@ -10,7 +12,7 @@ export const GridRepoCuerpo2 = ({index, nameRepo, lenguage, visibility, html_url
             <span>{visibility}</span>
           </div>
           <div className="cuerpo2ButtonsStarCombo">
-            <button className="cuerpo2starButton">Star</button>
+            <button className="cuerpo2starButton"><IoIosStarOutline style={{fontSize: "17px"}}/>Star</button>
             <select name="starCombo" id="1sc" className="cuerpo2ComboBox">  
             </select>      
           </div>
